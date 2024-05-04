@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1714862107
+Card.gd::GDScript::-1::1714804680::0::1::::<>Area2D<>::
+Card.tscn::PackedScene::3200405386467630449::1714807856::0::1::::<><>::res://Card.gd<>uid://d26cgys3rtra6::::res://Gibbon.jpg<>uid://bkvpnfy10l1o3::::res://Temp Card (Transparent) Outline.png
+Gibbon.jpg::CompressedTexture2D::9118489978093551883::1714638201::1714638201::1::::<><>::
+Hand.gd::GDScript::-1::1714862040::0::1::::<>Node2D<>::
+Hand.tscn::PackedScene::222454453414206612::1714807856::0::1::::<><>::res://Hand.gd
+icon.svg::CompressedTexture2D::348724536138189785::1714633798::1714633803::1::::<><>::
+Starry Rock v2.png::CompressedTexture2D::6029371794786365780::1714634116::1714634117::1::::<><>::
+Temp Card (Transparent) Outline.png::CompressedTexture2D::3132595324028189832::1714801200::1714801200::1::::<><>::
+Temp Card Outline.png::CompressedTexture2D::2782762824479341394::1714800440::1714800440::1::::<><>::
