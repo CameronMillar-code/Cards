@@ -11,7 +11,6 @@ func _ready():
 
 func _on_drag(viewport, event, shape_idx):
 	if event.is_action_pressed("ui_click"):
-		print(event)
 		viewport.set_input_as_handled()
 		previous_mouse_position = event.position
 		dragging = true

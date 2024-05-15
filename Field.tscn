@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://csg6cg48gvsp7"]
+
+[ext_resource type="Script" path="res://Field.gd" id="1_ujflr"]
+[ext_resource type="PackedScene" uid="uid://df0167npu4we" path="res://Hand.tscn" id="2_32c5u"]
+
+[node name="Field" type="Node"]
+script = ExtResource("1_ujflr")
+
+[node name="Hand" parent="." instance=ExtResource("2_32c5u")]

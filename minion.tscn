@@ -1,0 +1,56 @@
+[gd_scene load_steps=7 format=3 uid="uid://dixeiw5xajiin"]
+
+[ext_resource type="Texture2D" uid="uid://d26cgys3rtra6" path="res://Gibbon.jpg" id="1_d4kpd"]
+[ext_resource type="Script" path="res://minion.gd" id="1_dg1u7"]
+[ext_resource type="Texture2D" uid="uid://1s3ghbi7hffh" path="res://StatCircle.png" id="2_p7pag"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rale0"]
+size = Vector2(137, 92)
+
+[sub_resource type="LabelSettings" id="LabelSettings_dwnlr"]
+font_size = 15
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_1bkqa"]
+font_size = 15
+font_color = Color(0, 0, 0, 1)
+
+[node name="Minion" type="Area2D"]
+position = Vector2(68, 46)
+script = ExtResource("1_dg1u7")
+attack = 1
+health = 3
+metadata/_edit_group_ = true
+
+[node name="Art" type="Sprite2D" parent="."]
+position = Vector2(0.500001, -2.72691e-06)
+scale = Vector2(0.498182, 0.502732)
+texture = ExtResource("1_d4kpd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_rale0")
+
+[node name="AttackCircle" type="Sprite2D" parent="."]
+position = Vector2(-52.955, 31.335)
+texture = ExtResource("2_p7pag")
+
+[node name="HealthCircle" type="Sprite2D" parent="."]
+position = Vector2(53.815, 31.24)
+texture = ExtResource("2_p7pag")
+
+[node name="AttackText" type="Label" parent="."]
+offset_left = -57.085
+offset_top = 20.24
+offset_right = -17.085
+offset_bottom = 43.24
+text = "0"
+label_settings = SubResource("LabelSettings_dwnlr")
+
+[node name="HealthText" type="Label" parent="."]
+offset_left = 49.35
+offset_top = 20.0
+offset_right = 89.35
+offset_bottom = 43.0
+text = "0"
+label_settings = SubResource("LabelSettings_1bkqa")
